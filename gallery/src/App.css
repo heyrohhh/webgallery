@@ -1,0 +1,225 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: rgb(226, 226, 226);
+}
+
+.inputSection{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  height: 33vh;
+  margin-left: 25%;
+  margin-top: 1.5%;
+  border-radius: 8px;
+  border: 1.5px solid black;
+  text-align: center;
+  box-shadow: 7px 7px 10px whitesmoke;
+  background-color: rgb(252, 248, 248);
+}
+
+.sec1{
+   width: 60%;
+   height: fit-content;
+   margin-left: 5%;
+   margin-top: 15%;
+   text-align: center;
+   
+}
+.sec1 input{
+  border-radius: 5px;
+  width: 20%;
+  border: 1px solid black;
+}
+.sec1 input[type="file"]::file-selector-button {
+  border: 1px solid black;
+  background-color: rgb(241, 143, 130);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sec1 input[type="file"]::file-selector-button:hover {
+      background-color: rgb(3, 112, 9);
+      color: white;
+      transition: .5s;
+   
+}
+
+.sec1 button{
+  margin-left: 2%;
+  border: 1px solid black;
+  background-color: rgb(241, 143, 130);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sec1 button:hover{
+  background-color: rgb(3, 112, 9);
+  color: white;
+  transition: .5s;
+}
+
+.sec2{
+   margin-top: 2%;
+  height: 25vh;
+  width: 15vw;
+}
+
+.sec2 img{
+  margin-top: 3%;
+  height: 10rem;
+  border-radius: 6px;
+}
+
+
+/* output section css style bruhhh */
+
+.outputSection{
+  background-color: rgb(236, 236, 236);
+  height: 57vh;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 2.3%;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.oSec1{
+  background-color: white;
+  width: 65%;
+  margin-left: 5%;
+  margin-top: 1%;
+  text-align: center;
+  height: 90%;
+  border-radius: 7px;
+}
+
+
+.imageStyle{
+      height: 15rem;
+      padding: 1%;
+      margin-left: 1%;
+      margin-top: 1%;
+      background-color: whitesmoke;
+      width: fit-content;
+      border-radius: 5px;
+      border: 1.5px solid black;
+}
+
+.oSec1 img{
+  height: 13rem;
+  width: 10rem;
+  border-radius: 5px;
+  margin-left: 2%;
+}
+
+.cancel{
+  margin-left: 15%;
+  color: black;
+  font-weight: bolder;
+  font-size: x-large;
+  width: 10%;
+  
+}
+.view{
+  color: black;
+  font-weight: bolder;
+  font-size:large;
+  width: 20%;
+  margin-left: 5%;
+}
+
+.cancel:hover{
+     color: red;   
+     cursor: pointer;
+
+}
+.view:hover{
+  color: blue;
+  cursor: pointer;
+}
+
+.images{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  overflow-x: scroll;
+  width: 98%;
+  margin-left: 1%; 
+}
+
+.seeImg{
+ display: flex;
+ flex-direction: column;
+  width: 85%;
+  margin-left: 6%;
+  margin-top: 2%;
+  height: 22rem;
+}
+.seeImg button{
+  background-color: white;
+  border: none;
+}
+
+.oSec2{
+  width: 30%;
+}
+
+.seeImg img{
+  margin-left: 2%;
+  height: 21rem;
+  margin-top: 3%;
+  border-radius: 5px;
+  width: 15rem;
+}
+
+.seeImg button{
+  width: 15rem;
+}
+
+.seeImg button:hover{
+  background-color: red;
+}
+
+.confirm-delete-dialog{
+  height: 7vh;
+  border-radius: 8px;
+  padding: 2%;
+  background-color: white;
+  border: 1.5px solid black;
+  position: absolute;
+  top: 20rem;
+  right: 35rem;
+}
+
+.confirm-delete-dialog:hover{
+          background-color: rgb(245, 211, 237);
+}
+
+.confirm-delete-dialog button{
+  margin-top: 5%;
+  width: 5rem;
+  height: 1.5rem;
+  margin-left: 3%;
+  background-color: white;
+  border-radius: 5px;
+}
+.green:hover{
+           background-color: rgb(53, 170, 53);
+           color: white;
+
+}
+.red:hover{
+  background-color: red;
+  color: white;
+}
+
