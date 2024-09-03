@@ -1,0 +1,64 @@
+
+header{
+    background-color: transparent;
+    color: #CC313D;
+    font-family: monospace;    
+}
+
+
+.nav{
+    text-decoration: none;
+    color: #CC313D;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    width: 80%;
+    padding-top: 2%;
+    font-family: cursive;
+}
+
+.resName{
+    width: 20%;
+   
+}
+
+.order{
+    width: 20%;
+ 
+}
+
+.Options ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+         cursor: pointer;
+    width: 200%;
+    font-size: large;
+    font-weight: 300;
+    font-family: cursive;
+  position: relative;
+  right: 8rem;
+}
+
+
+#opt1:hover{
+           text-decoration: underline;
+           
+}
+#opt2:hover{
+    text-decoration: underline;
+    
+}
+#opt3:hover{
+    text-decoration: underline;
+    
+}
+#opt4:hover{
+    text-decoration: underline;
+    
+}

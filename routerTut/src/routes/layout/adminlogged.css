@@ -1,0 +1,61 @@
+.sec1a{
+    border: 2px solid black;
+    width: 70%;
+    margin-left: 3%;
+    border-radius:10px ;
+    text-align: center;
+}
+
+
+
+.body{
+    background-color: aliceblue;
+    height: 100vh;
+    font-family: cursive;
+    font-size: large;
+    font-weight: 200;
+}
+
+.vega{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    grid-gap: 1rem;
+    width: 93%;
+    margin-left: 1%;
+    
+
+}
+
+#cd{
+    display: flex;
+    justify-content: center;
+}
+
+.vegItema{
+background-color: rgb(169, 236, 167);
+border:1px solid black;
+padding: 2%;
+width: 100%;
+font-family: cursive;
+font-size: large;
+border-radius: 10px;
+}
+
+
+.vegItema button{
+   width: 70%;
+   height: 2rem;
+   padding: .5%;
+   border-radius: 10px;
+   background-color: rgb(103, 180, 40);
+   font-family: cursive;
+   font-size: 1rem;
+   color: white;
+}
+
+
+table{
+  
+    width: 100%;
+}

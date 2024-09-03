@@ -1,0 +1,163 @@
+body{
+    background-color: white;
+}
+
+.foodMenu{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    padding: 1%;
+
+}
+.sec1{
+    border: 2px solid black;
+    width: 70%;
+    height: 106vh;
+    margin-left: 3%;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+
+.sec2{
+         border: 2px solid black;
+         margin-left: 2%;
+         width: 22%;
+         padding: 1%;
+         height: fit-content;
+         border-radius: 10px;
+}
+
+.sec2 ul li{
+    list-style: none;
+    font-family: cursive;
+}
+
+.veg{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      margin-top: 3%;
+      margin-left: 7.5%;
+      padding: 2%;
+      grid-gap: 1rem;
+      width: 85%;
+  
+}
+
+.vegItem{
+background-color: whitesmoke;
+border:1px solid black;
+padding: 2%;
+width: fit-content;
+border-radius: 10px;
+font-family: cursive;
+text-align: center;
+}
+
+.vegItem:hover{
+    box-shadow: 0px 0px 8px black;
+    zoom:101%;
+    transition: .5s;
+}
+.vegItem Img{
+       height: 13rem;
+       width: 15rem;
+       border-radius: 10px;
+}
+
+.vegItem button{
+     width: 95%;
+     margin-top: 2%;
+     height: 1.7rem;
+     margin-left: 2%;
+     font-family: cursive;
+     font-size: large;
+     background-color: rgb(255, 255, 255);
+     border-radius: 8px;
+}
+.nonVeg{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 3%;
+    margin-left: 7.5%;
+    padding: 2%;
+    grid-gap: 1rem;
+    width: 85%;
+
+}
+
+.nonVegItem{
+    background-color: whitesmoke;
+    border:1px solid black;
+    padding: 2%;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.nonVegItem Img{
+    height: 13rem;
+    width: 15rem;
+    border-radius: 10px;
+}
+
+.nonVegItem button{
+  width: 90%;
+  margin-top: 2%;
+}
+
+
+.chapati{
+     display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 3%;
+    margin-left: 7.5%;
+    padding: 2%;
+    grid-gap: 1rem;
+    width: 85%;
+}
+
+.chapatiRice{
+    background-color: whitesmoke;
+    border:1px solid black;
+    padding: 2%;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.chapatiRice img{
+    height: 13rem;
+    width: 15rem;
+    border-radius: 10px;
+}
+.chapatiRice button{
+  width: 90%;
+  margin-top: 2%;
+}
+
+.bevrages{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 3%;
+    margin-left: 7.5%;
+    padding: 2%;
+    grid-gap: 1rem;
+    width: 85%;
+}
+
+.bevragesItem{
+    background-color: whitesmoke;
+    border:1px solid black;
+    padding: 2%;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.bevragesItem img{
+    height: 13rem;
+    width: 15rem;
+    border-radius: 10px;
+}
+
+.bevragesItem button{
+    width: 90%;
+    margin-top: 2%;
+}
